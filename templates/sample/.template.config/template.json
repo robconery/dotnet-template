@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "description": "A template sample",
+  "defaultName" : "Sample",
+  "repository": {
+    "url": "FILL THIS IN",
+    "type": "GitHub"
+  },
+  "projectURL": "FILL THIS IN",
+  "releaseNotes": "FILL THIS IN",
+  "author": "YOU",
+  "classifications": [ "Web Application" ], 
+  "name": "Sample",
+  "identity": "Sample.Sample",         
+  "shortName": "sample",                    
+  "tags": {
+    "language": "Web",                         
+    "type":"project"
+  },
+  "sourceName": "Sample.Sample",
+  "preferNameDirectory":true
+}

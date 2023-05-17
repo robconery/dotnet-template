@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <PackageReadmeFile>content/templates/sample/README.md</PackageReadmeFile>
+    <PackageIcon>content/templates/sample/icon.png</PackageIcon>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageId>Sample.Sample</PackageId>
+    <Title>Fill this in</Title>
+    <Authors>You</Authors>
+    <Description>Fill this in</Description>
+    <PackageTags>dotnet-new;templates;web;</PackageTags>
+    <TargetFramework>net7.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**;templates\**\node_modules\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>
